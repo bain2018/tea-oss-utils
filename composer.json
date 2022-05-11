@@ -27,14 +27,6 @@
             "AlibabaCloud\\Tea\\OSSUtils\\Tests\\": "tests"
         }
     },
-    "scripts": {
-        "fixer": "php-cs-fixer fix ./",
-        "test": [
-            "@clearCache",
-            "./vendor/bin/phpunit --colors=always"
-        ],
-        "clearCache": "rm -rf cache/*"
-    },
     "config": {
         "sort-packages": true,
         "preferred-install": "dist",
